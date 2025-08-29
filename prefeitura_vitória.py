@@ -42,7 +42,7 @@ df_despesas_limpo_por_data = df_despesas_limpo.set_index('Data')
 gastos_mensais = df_despesas_limpo_por_data.resample('M')['Valor'].sum()
 
 #Streamlit
-
+st.set_page_config(layout="wide")
 # Título da página
 st.title("🏛️ Fiscal de Vitória-ES")
 #st.subheader("Bem vindos ao Fiscal de Vitória")
@@ -142,4 +142,5 @@ st.write(df_despesas_limpo)
 st.divider()
 
 st.markdown("<h6 style='text-align: center; color:gray;'>Fiscal de Vitória © 2025 — Desenvolvido por Lucas Vescovi</h6>", unsafe_allow_html=True)
+
 st.markdown("<h6 style='text-align: center; color:gray;'>Dados públicos da Prefeitura de Vitória | Projeto sem fins lucrativos</h6>", unsafe_allow_html=True)
