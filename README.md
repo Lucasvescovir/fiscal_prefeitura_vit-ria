@@ -25,14 +25,14 @@ Pré-requisitos
 Certifique-se de ter o Python instalado (versão 3.7+ é recomendada).
 
 1. Clonar o Repositório
-2. 
+   
 git clone https://github.com/seu-usuario/fiscal-vitoria.git
 cd fiscal-vitoria
 
 (Nota: Lembre-se de substituir seu-usuario/fiscal-vitoria pelo caminho real do seu repositório.)
 
 2. Criar e Ativar um Ambiente Virtual (Recomendado)
-3. 
+   
 python -m venv venv
 
  **No Windows**
@@ -43,15 +43,15 @@ python -m venv venv
 
 source venv/bin/activate
 
-5. Instalar as Dependências
-6. 
+3. Instalar as Dependências
+   
 pip install -r requirements.txt
 
-7. Preparar os Dados
+4. Preparar os Dados
    
 Baixe o arquivo de dados DespesasPagas-2025.csv (ou o nome do arquivo que você estiver usando) e coloque-o na raiz do diretório do projeto. Certifique-se de que o encoding do CSV seja compatível (o código usa latin-1).
 
-9. Executar a Aplicação Streamlit
+5. Executar a Aplicação Streamlit
     
 streamlit run seu_script_principal.py
 
