@@ -1,4 +1,5 @@
 **🏛️ Fiscal de Vitória-ES**
+
 🔎 Visão Geral
 O projeto Fiscal de Vitória-ES é uma aplicação interativa desenvolvida em Streamlit que visa promover a transparência e o controle social dos gastos públicos da Prefeitura Municipal de Vitória, Espírito Santo. Através de dados abertos de despesas pagas, a ferramenta permite visualizar estatísticas, gráficos e explorar os principais fornecedores e as tendências de gastos do município de forma clara e acessível.
 
